@@ -1,0 +1,91 @@
+<html>
+<head>
+	<style>
+	.wrap{
+		width:400px;
+		padding:20px;
+		overflow:hidden;
+		margin:auto;
+		margin-top:100px;
+
+	}
+	.wrap .wrap1{
+		width:400px;
+		overflow:hidden;
+		margin:auto;
+		background-color:green;
+		text-align:center;
+		margin-bottom:10px;
+		color:#fff;
+		font-size:17px;
+	}
+	.wrap input{
+		width:400px;
+		height:35px;
+		margin-bottom:10px;
+		border-radius:3px;
+		border:1px solid silver;
+		padding:5px;
+	}
+	.wrap .btn-SIGN{
+		padding:5px;
+		width:400px;
+		height:40px;
+		background-color:green;
+		color:#fff;
+		border-radius:3px;
+		border:0;
+		margin-bottom:8px;
+		font-size:17px;
+	}
+	.wrap .btn-f{
+		padding:5px;
+		width:400px;
+		height:40px;
+		background-color:blue;
+		color:#fff;
+		border-radius:3px;
+		border:0;
+		font-size:17px;
+		margin-bottom:10px;
+	}
+	.wrap .btn-g{
+		padding:5px;
+		width:400px;
+		height:40px;
+		background-color:red;
+		color:#fff;
+		border-radius:3px;
+		border:0;
+		font-size:17px;
+		margin-bottom:15px;
+	}
+	.wrap .btn-EPAM{
+		padding:5px;
+		width:400px;
+		height:40px;
+		background-color:orange;
+		color:#fff;
+		border-radius:3px;
+		border:0;
+		font-size:17px;
+	}
+	
+	</style>
+</head>
+<body>
+	<div class = "wrap">
+		<div class = "wrap1">
+			<h2>Sign in</h2>
+		</div>
+		<input type = "email" name = "email" placeholder ="mail@example.com">
+		<input type = "password" name = "password" placeholder = "password">
+		<button class = "btn-SIGN">SIGN IN</button> 
+		<p>Forget your password? &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &nbsp;Register?</p>
+		<p>---------------------------------  OR  -----------------------------------</p>
+		<button class = "btn-f">f</button>
+		<button class = "btn-g">g</button>
+		<button class = "btn-EPAM">EPAM LOGIN</button>
+	</div>
+</body>
+</html>
